@@ -1,0 +1,57 @@
+body { background: rgb(29, 29, 185);
+    color: whitesmoke;
+}
+
+div { border-radius: 50px;
+    border: 20px;
+    margin: 9px;
+    padding:20;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-block-end: 5px;
+    background: rgb(247, 116, 76);
+    
+}
+h2 {
+    color: black
+}
+
+/* Add a background colour to the top navigation */
+.topnav {
+    background-color: rgb(248, 88, 47);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 19px 24px;
+    text-decoration: none;
+    font-size: 19px;
+  }
+  
+  /* Change the colour of links and scale on hover */
+  .topnav a:hover {
+    transform: all .4s ease-in-out;
+    transform: scale(1.2);
+    background-color: rgb(18, 2, 61);
+    color: white;
+  }
+  
+  /* Add a colour to the active/current link */
+  .topnav a.active {
+    background-color: black;
+    color: white;
+  }
+
+  .myLinks{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-end;
+
+  }
